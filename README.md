@@ -4,17 +4,17 @@ This repo contains all code used in my course project of [DDA6201: Selected Topi
 # Program structure
 - `metrics/`: training losses of different models.
 - `notebooks/`
-  - `covid19_subset.ipynb` and `processing.ipynb`: code for preprocessing the dataset
+  - `covid19_subset.ipynb` and `processing.ipynb`: code for preprocessing the dataset.
   - `visualization.ipynb`: code for visualizing the results
-- `data.py`: code for loading the dataset
-- `models`: model definitions
-- `train_base.py`: training the vanilla transformer
-- `train_sp.py`: the supervised pretraining step
-- `train_rl.py`: the reinforcement learning step
-- `utils_rl.py`: utils for the reinforcement learning step
+- `data.py`: code for loading the dataset.
+- `models`: model definitions.
+- `train_base.py`: training the vanilla transformer.
+- `train_sp.py`: the supervised pretraining step.
+- `train_rl.py`: the reinforcement learning step.
+- `utils_rl.py`: utils for the reinforcement learning step.
 
 # Dataset
-The dataset is a subset of cells sampled from patients with COVID-19 and healthy controls: https://doi.org/10.1016/j.cell.2021.01.053
+The dataset is a subset of cells sampled from patients with COVID-19 and healthy controls: https://doi.org/10.1016/j.cell.2021.01.053.
 
 # Models
 1. vanilla transformer
@@ -27,5 +27,5 @@ The dataset is a subset of cells sampled from patients with COVID-19 and healthy
 > HO: hyperparameter optimization
 
 
-> The network architecture of Skipformer is adapted from [SkipNet](https://openaccess.thecvf.com/content_ECCV_2018/html/Xin_Wang_SkipNet_Learning_Dynamic_ECCV_2018_paper.html)
+> The network architecture of Skipformer is adapted from [SkipNet](https://openaccess.thecvf.com/content_ECCV_2018/html/Xin_Wang_SkipNet_Learning_Dynamic_ECCV_2018_paper.html).
 
